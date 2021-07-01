@@ -1,0 +1,109 @@
+/* * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+} */
+
+body {
+  background-image: url("analysis.jpg");
+   background-size: cover; 
+}
+
+#container {
+  padding: 30px 20px;
+}
+
+.notes {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.title {
+  margin: 0.55em 0 0.28em;
+  padding: 0.44em 0 0 0;
+  font-weight: 200;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: khaki;
+}
+
+#leftArea {
+  padding: 0 20px;
+  float: right;
+}
+
+#textArea {
+  padding: 20px 0 0 0;
+  margin: 0 0 10px 0;
+}
+
+.error {
+  text-align: justify;
+}
+
+#demoAnalysis {
+  margin: 20px 0;
+  padding: 6px 12px;
+}
+
+.table {
+  font-size: 12px;
+  margin: 50px 0 20px;
+}
+
+#rightArea {
+  float: right;
+}
+
+.fact-container {
+  margin: 10px 0;
+  background-color: darkseagreen; 
+ 
+}
+
+
+#factCard {
+  border: 1px solid gray;
+  padding: 0 20px 5px;
+  margin: 40px 10px 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#factTitle {
+  border-bottom: 10px solid gray;
+}
+
+.calories {
+  font-weight: bold;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#factTable {
+  width: 100%;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.small-info {
+  font-size: 11px;
+  font-style: inherit;
+}
+
+.thickBorder {
+  border-top: 5px solid gray;
+}
+
+.factItems {
+  border-top: 1px solid gray;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.factPercentage {
+  border-top: 1px solid gray;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+}
